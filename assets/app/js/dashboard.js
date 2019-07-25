@@ -1509,11 +1509,11 @@ var Dashboard = function() {
             editable: true,
             eventLimit: true, // allow "more" link when too many events
             navLinks: true,
-            defaultDate: moment('2017-09-15'),
+            defaultDate: moment('2019-07-15'),
             events: [
                 {
                     title: 'Meeting',
-                    start: moment('2017-08-28'),
+                    start: moment('2019-07-28'),
                     description: 'Lorem ipsum dolor sit incid idunt ut',
                     className: "m-fc-event--light m-fc-event--solid-warning"
                 },
