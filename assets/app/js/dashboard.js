@@ -1512,122 +1512,65 @@ var Dashboard = function() {
             defaultDate: moment('2019-07-15'),
             events: [
                 {
-                    title: 'Meeting',
-                    start: moment('2019-07-28'),
+                    title: 'ซ่อมเครื่องปั้มน้ำ 1A',
+                    start: moment('2019-07-01T19:00:00'),
                     description: 'Lorem ipsum dolor sit incid idunt ut',
                     className: "m-fc-event--light m-fc-event--solid-warning"
                 },
                 {
-                    title: 'Conference',
+                    title: 'เดินสายไฟเบอร์จากตึก 2 ไปตึก 4',
                     description: 'Lorem ipsum dolor incid idunt ut labore',
-                    start: moment('2017-08-29T13:30:00'),
-                    end: moment('2017-08-29T17:30:00'),
-                    className: "m-fc-event--accent"
+                    start: moment('2019-07-03T18:30:00'),
+                    className: "m-fc-event--accent m-fc-event--solid-warning"
                 },
                 {
-                    title: 'Dinner',
-                    start: moment('2017-08-30'),
+                    title: 'ตัดต้นไม้หน้าห้อง 304',
+                    start: moment('2019-07-09'),
                     description: 'Lorem ipsum dolor sit tempor incid',
-                    className: "m-fc-event--light  m-fc-event--solid-danger"
+                    className: "m-fc-event--light  m-fc-event--solid-warning"
                 },
                 {
-                    title: 'All Day Event',
-                    start: moment('2017-09-01'),
+                    title: 'ซื้อของประจำสัปดาห์',
+                    start: moment('2019-07-02'),
                     description: 'Lorem ipsum dolor sit incid idunt ut',
-                    className: "m-fc-event--danger m-fc-event--solid-focus"
                 },
                 {
-                    title: 'Reporting',
+                    title: 'ซื้อของประจำสัปดาห์',
                     description: 'Lorem ipsum dolor incid idunt ut labore',
-                    start: moment('2017-09-03T13:30:00'),
-                    end: moment('2017-09-04T17:30:00'),
-                    className: "m-fc-event--accent"
+                    start: moment('2019-07-09'),
                 },
                 {
-                    title: 'Company Trip',
-                    start: moment('2017-09-05'),
-                    end: moment('2017-09-07'),
+                    title: 'ซื้อของประจำสัปดาห์',
+                    start: moment('2019-07-16'),
                     description: 'Lorem ipsum dolor sit tempor incid',
-                    className: "m-fc-event--primary"
                 },
                 {
-                    title: 'ICT Expo 2017 - Product Release',
-                    start: moment('2017-09-09'),
+                    title: 'ซื้อของประจำสัปดาห์',
+                    start: moment('2019-07-23'),
                     description: 'Lorem ipsum dolor sit tempor inci',
-                    className: "m-fc-event--light m-fc-event--solid-primary"
                 },
                 {
-                    title: 'Dinner',
-                    start: moment('2017-09-12'),
+                    title: 'ซื้อของประจำสัปดาห์',
+                    start: moment('2019-07-30'),
                     description: 'Lorem ipsum dolor sit amet, conse ctetur'
                 },
                 {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: moment('2017-09-15T16:00:00'),
+                    title: 'ซื้อของประจำสัปดาห์',
+                    start: moment('2019-08-06'),
                     description: 'Lorem ipsum dolor sit ncididunt ut labore',
-                    className: "m-fc-event--danger"
                 },
                 {
                     id: 1000,
-                    title: 'Repeating Event',
+                    title: 'ซ่อมปั้มน้ำ 2A',
                     description: 'Lorem ipsum dolor sit amet, labore',
-                    start: moment('2017-09-18T19:00:00'),
+                    start: moment('2019-07-25T16:00:00'),
+                    className: "m-fc-event--accent m-fc-event--solid-warning"
                 },
                 {
-                    title: 'Conference',
-                    start: moment('2017-09-20T13:00:00'),
-                    end: moment('2017-09-21T19:00:00'),
+                    title: 'ย้ายเครื่องซักผ้า 3 เครื่องจากตึก 1 ไปตึก 4',
+                    start: moment('2019-07-12T13:00:00'),
                     description: 'Lorem ipsum dolor eius mod tempor labore',
-                    className: "m-fc-event--accent"
-                },
-                {
-                    title: 'Meeting',
-                    start: moment('2017-09-11'),
-                    description: 'Lorem ipsum dolor eiu idunt ut labore'
-                },
-                {
-                    title: 'Lunch',
-                    start: moment('2017-09-18'),
-                    className: "m-fc-event--info m-fc-event--solid-accent",
-                    description: 'Lorem ipsum dolor sit amet, ut labore'
-                },
-                {
-                    title: 'Meeting',
-                    start: moment('2017-09-24'),
-                    className: "m-fc-event--warning",
-                    description: 'Lorem ipsum conse ctetur adipi scing'
-                },
-                {
-                    title: 'Happy Hour',
-                    start: moment('2017-09-24'),
-                    className: "m-fc-event--light m-fc-event--solid-focus",
-                    description: 'Lorem ipsum dolor sit amet, conse ctetur'
-                },
-                {
-                    title: 'Dinner',
-                    start: moment('2017-09-24'),
-                    className: "m-fc-event--solid-focus m-fc-event--light",
-                    description: 'Lorem ipsum dolor sit ctetur adipi scing'
-                },
-                {
-                    title: 'Birthday Party',
-                    start: moment('2017-09-24'),
-                    className: "m-fc-event--primary",
-                    description: 'Lorem ipsum dolor sit amet, scing'
-                },
-                {
-                    title: 'Company Event',
-                    start: moment('2017-09-24'),
-                    className: "m-fc-event--danger",
-                    description: 'Lorem ipsum dolor sit amet, scing'
-                },
-                {
-                    title: 'Click for Google',
-                    url: 'http://google.com/',
-                    start: moment('2017-09-26'),
-                    className: "m-fc-event--solid-info m-fc-event--light",
-                    description: 'Lorem ipsum dolor sit amet, labore'
+                    className: "m-fc-event--accent m-fc-event--solid-warning"
                 }
             ],
 
