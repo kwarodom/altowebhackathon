@@ -93,10 +93,13 @@ var Dashboard = function() {
     }
 
     //== Daily Sales chart.
+    // TODO now change to display monthly booking
     //** Based on Chartjs plugin - http://www.chartjs.org/
     var dailySales = function() {
         var chartData = {
-            labels: ["Label 1", "Label 2", "Label 3", "Label 4", "Label 5", "Label 6", "Label 7", "Label 8", "Label 9", "Label 10", "Label 11", "Label 12", "Label 13", "Label 14", "Label 15", "Label 16"],
+            labels: ["25/07/19", "26/07/19", "27/07/19", "28/07/19", "29/07/19", "30/07/19",
+                "31/07/19", "01/08/19", "02/08/19", "03/08/19", "04/08/19", "05/08/19",
+                "06/08/19", "07/08/19", "08/08/19", "09/08/19"],
             datasets: [{
                 //label: 'Dataset 1',
                 backgroundColor: mUtil.getColor('success'),
@@ -107,7 +110,7 @@ var Dashboard = function() {
                 //label: 'Dataset 2',
                 backgroundColor: '#f3f3fb',
                 data: [
-                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
+                    30, 40, 50, 60, 55, 40, 30, 40, 45, 50, 45, 40, 35, 20, 35, 40
                 ]
             }]
         };
@@ -171,21 +174,21 @@ var Dashboard = function() {
 
         var chart = new Chartist.Pie('#m_chart_profit_share', {
             series: [{
-                    value: 32,
+                    value: 13,
                     className: 'custom',
                     meta: {
                         color: mUtil.getColor('brand')
                     }
                 },
                 {
-                    value: 32,
+                    value: 37,
                     className: 'custom',
                     meta: {
                         color: mUtil.getColor('accent')
                     }
                 },
                 {
-                    value: 36,
+                    value: 50,
                     className: 'custom',
                     meta: {
                         color: mUtil.getColor('warning')
@@ -1490,7 +1493,7 @@ var Dashboard = function() {
         if ($('#m_calendar').length === 0) {
             return;
         }
-        
+
         var todayDate = moment().startOf('day');
         var YM = todayDate.format('YYYY-MM');
         var YESTERDAY = todayDate.clone().subtract(1, 'day').format('YYYY-MM-DD');
@@ -1515,7 +1518,7 @@ var Dashboard = function() {
                     className: "m-fc-event--light m-fc-event--solid-warning"
                 },
                 {
-                    title: 'Conference',                    
+                    title: 'Conference',
                     description: 'Lorem ipsum dolor incid idunt ut labore',
                     start: moment('2017-08-29T13:30:00'),
                     end: moment('2017-08-29T17:30:00'),
@@ -1534,7 +1537,7 @@ var Dashboard = function() {
                     className: "m-fc-event--danger m-fc-event--solid-focus"
                 },
                 {
-                    title: 'Reporting',                    
+                    title: 'Reporting',
                     description: 'Lorem ipsum dolor incid idunt ut labore',
                     start: moment('2017-09-03T13:30:00'),
                     end: moment('2017-09-04T17:30:00'),

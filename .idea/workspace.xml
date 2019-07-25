@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5443b9-9d80-4762-ab71-9d61fcc522b3" name="Default" comment="" />
+    <list default="true" id="5f5443b9-9d80-4762-ab71-9d61fcc522b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assets/app/js/dashboard.js" afterPath="$PROJECT_DIR$/assets/app/js/dashboard.js" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,31 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="1762" column="40" lean-forward="true" selection-start-line="1762" selection-start-column="40" selection-end-line="1762" selection-end-column="40" />
+            <state relative-caret-position="468">
+              <caret line="1843" column="62" lean-forward="true" selection-start-line="1843" selection-start-column="62" selection-end-line="1843" selection-end-column="62" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/demo/demo6/media/img/logo/logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="altologo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/demo/demo6/media/img/logo/altologo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/js/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="183" column="30" lean-forward="true" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
+              <folding>
+                <element signature="e#158#3011#0" expanded="false" />
+                <element signature="e#3182#5358#0" expanded="false" />
+                <marker date="1564049141632" expanded="true" signature="51983:51989" ph=" " />
+                <marker date="1564049141632" expanded="true" signature="52536:53263" ph="..." />
+                <marker date="1564049141632" expanded="true" signature="52680:52780" ph="..." />
+                <marker date="1564049141632" expanded="true" signature="52857:53231" ph="..." />
+                <marker date="1564049141632" expanded="true" signature="53421:53507" ph="..." />
+                <marker date="1564049141632" expanded="true" signature="53659:53746" ph="..." />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -50,12 +61,23 @@
       <find>img/logo/logo.png</find>
       <find>Applicatio</find>
       <find>member profit</find>
+      <find>daily_sa</find>
+      <find>Label 1</find>
+      <find>#</find>
+      <find>m_wid</find>
+      <find>m-</find>
+      <find>m_chart_profit_share</find>
+      <find>Profit Share be</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/app/js/dashboard.js" />
       </list>
     </option>
   </component>
@@ -66,11 +88,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="478" />
-    <option name="y" value="68" />
-    <option name="width" value="1182" />
-    <option name="height" value="893" />
+    <option name="x" value="1645" />
+    <option name="y" value="23" />
+    <option name="width" value="1685" />
+    <option name="height" value="1020" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -98,6 +121,19 @@
               <item name="altowebhackathon" type="b2602c69:ProjectViewProjectNode" />
               <item name="altowebhackathon" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="altowebhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="altowebhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="altowebhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="altowebhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,24 +181,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564036857320</updated>
-      <workItem from="1564036858579" duration="2595000" />
+      <workItem from="1564036858579" duration="4880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2595000" />
+    <option name="totallyTimeSpent" value="4880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="478" y="68" width="1182" height="893" extended-state="0" />
+    <frame x="1645" y="23" width="1685" height="1020" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2868217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2001202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3503326" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -185,21 +221,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/js/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1563995645000" expanded="true" signature="51892:51898" ph=" " />
-            <marker date="1563995645000" expanded="true" signature="52445:53172" ph="..." />
-            <marker date="1563995645000" expanded="true" signature="52589:52689" ph="..." />
-            <marker date="1563995645000" expanded="true" signature="52766:53140" ph="..." />
-            <marker date="1563995645000" expanded="true" signature="53330:53416" ph="..." />
-            <marker date="1563995645000" expanded="true" signature="53568:53655" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -208,24 +229,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/demo/demo6/media/img/logo/altologo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/demo/demo6/media/img/logo/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/demo/demo6/media/img/logo/altologo.png">
+    <entry file="file://$PROJECT_DIR$/assets/app/media/img/logos/logo-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/media/img/logos/logo-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/media/img/logos/logo-1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="1762" column="40" lean-forward="true" selection-start-line="1762" selection-start-column="40" selection-end-line="1762" selection-end-column="40" />
+        <state relative-caret-position="468">
+          <caret line="1843" column="62" lean-forward="true" selection-start-line="1843" selection-start-column="62" selection-end-line="1843" selection-end-column="62" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/js/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="183" column="30" lean-forward="true" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
+          <folding>
+            <element signature="e#158#3011#0" expanded="false" />
+            <element signature="e#3182#5358#0" expanded="false" />
+            <marker date="1564049141632" expanded="true" signature="51983:51989" ph=" " />
+            <marker date="1564049141632" expanded="true" signature="52536:53263" ph="..." />
+            <marker date="1564049141632" expanded="true" signature="52680:52780" ph="..." />
+            <marker date="1564049141632" expanded="true" signature="52857:53231" ph="..." />
+            <marker date="1564049141632" expanded="true" signature="53421:53507" ph="..." />
+            <marker date="1564049141632" expanded="true" signature="53659:53746" ph="..." />
           </folding>
         </state>
       </provider>
